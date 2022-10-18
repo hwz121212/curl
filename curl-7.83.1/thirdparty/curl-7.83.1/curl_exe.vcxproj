@@ -61,7 +61,6 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>CURL_STATICLIB;WIN32;_WINDOWS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;</PreprocessorDefinitions>
     </ClCompile>
-    
     <Link>
       <AdditionalDependencies>libcurl.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)</AdditionalLibraryDirectories>
@@ -88,7 +87,6 @@
       <PreprocessorDefinitions>CURL_STATICLIB;WIN32;_WINDOWS;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG</PreprocessorDefinitions>
       <DebugInformationFormat />
     </ClCompile>
-    
     <Link>
       <AdditionalDependencies>libcurl.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)</AdditionalLibraryDirectories>
@@ -194,7 +192,6 @@
     <ClInclude Include="src\tool_writeout.h" />
     <ClInclude Include="src\tool_writeout_json.h" />
     <ClInclude Include="src\tool_xattr.h" />
-    <ResourceCompile Include="src\curl.rc" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
